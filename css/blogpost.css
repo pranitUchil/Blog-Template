@@ -1,0 +1,53 @@
+.post-img{
+    height: 400px;
+    overflow: hidden;
+}
+
+.post-img img{
+
+
+    width: 100%;
+}
+.blog-post-content h1{
+    text-align: center;
+    padding: 60px;
+}
+.blog-post-content p{
+    font-size: 20px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+main h2{
+    margin-top: 20px;
+}
+.home-articles{
+    display: flex;
+}
+.home-article{
+    flex-direction: column;
+    width: 27vw;
+}
+.home-article-content{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.home-article-content{
+    align-self: start;
+
+}
+@media screen  and (max-width:1200px){
+    .home-articles{
+        flex-direction: column;
+    }
+    .home-article-content{
+        align-self: center;
+    }
+    .home-article {
+       
+        width: 65vw;
+    }
+    
+    
+}

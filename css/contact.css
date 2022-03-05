@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation1{
+background-color:#dadada;
+width: 100%;
+}
+
+.contact-content{
+
+position: relative;
+
+/* height: 80vh; */
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url('/img/bodybg.jpg');
+    opacity: 20%;
+    height: 100%;
+    width: 100vw;
+    top:0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.max-width-1 h2{
+    padding-top: 20px;
+}
+.form-box button{
+    margin-bottom: 20px;
+}
+

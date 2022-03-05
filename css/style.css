@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100&display=swap');
+
+:root{
+
+    --font1:'Baloo Bhai 2', cursive;
+    --font2:'Roboto', sans-serif;
+
+}
+
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+  
+    font-family: var(--font1);
+    height:64px;
+    /* background-color: rgb(41, 121, 190); */
+    /* width: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 25px;
+    display: flex;
+}
+.nav-right{
+    z-index: 1;
+}
+ul{
+    display:flex;
+    margin: 0 10px;
+    margin: 0px 40px;
+    font-size: 17px;
+    align-items: center;
+    z-index: 1;
+}
+li{
+    list-style: none;
+    font-family: var(--font2);
+   
+}
+li a:hover{
+ 
+    font-weight:bold;
+    color: rgb(138, 37, 37);
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+ 
+}
+hr{
+    margin-top: 15px;
+}
+.content{
+    display: flex;
+
+    
+}
+.content::after{
+    content: "";
+    background-image: url('/img/bodybg.jpg');
+    opacity: 20%;
+    height: 395px;
+    width: 80vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+
+}
+.content-right img{
+    border-radius: 10px;
+    width: 337px;
+    margin-right: 40px;
+
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+.content-left{
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    z-index: 1;
+}
+.content{
+    height: 395px;
+    /* background-color: rgb(240, 210, 210); */
+    /* width:100px; */
+}
+.home-articles{
+  
+    padding: 20px;
+    position: relative;
+    
+    
+    
+ 
+}
+.year-box{
+    position: absolute;
+    height: 75px;
+    width: 200px;
+    left: 73vw;
+    top: 67px;
+    
+   
+
+}
+.year-box input{
+    
+    cursor: pointer;
+    padding:0 10px;
+
+}
+.year-box samp{
+    
+    padding:0 5px 0 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+}
+.year-box h3{
+    margin-left: 25px;
+
+}
+.home-article{
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+
+.home-article-content{
+    align-self: center;
+    margin-left: 25px;
+}
+.home-article img{
+   width:300px;
+   height: 274px;
+  
+   border-radius: 15px;
+}
+.home-article a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height:50px;
+    /* width: 100vw; */
+    background-color: rgb(98, 90, 90);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+   
+}
+
+
