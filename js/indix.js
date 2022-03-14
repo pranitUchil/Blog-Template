@@ -16,7 +16,7 @@ click.addEventListener('click',()=>{
     
     }
  
-    
+    console.log("This is working")
   
 })
 succ.addEventListener('click',()=>{
